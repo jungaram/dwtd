@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>dumb ways to die</title>
+	<style>
+	body{background-image: url("background.png"); background-size: 3000px;}
+	#qkRnsmsqjxms { width: 100px; height: 40px; text-align: center; line-height: 40px; margin:auto; background: none; border:1px solid black; border-radius:  4px; margin-top: 500px;}
+
+	#dumb1 {width: 1000px; margin: auto; background: #6c6386; float: left;}
+
+	#babos {width: 300px; position: absolute; top: 100px; left: 100px;}
+	#babos2 { width: 500px;  margin-top: 100px; margin-left: 300px; }
+	#babos3 {width: 600px; position: absolute; top: 250px; left: 1300px;}
+
+</style>
+	
+</head>
+<body>
+
+	<div id="dumb1"></div>
+	<div id= "qkRnsmsqjxms">주의!</div>
+	<img src="Kidneys1.png" id="babos">
+	<img src="space1.png" id="babos2">
+	<img src="dumb4.png" id="babos3">
+	
+
+	<audio id="dumbMusic">
+     <source src="dumbwaytodie.mp3" type="audio/mpeg">
+     </audio>
+
+     <audio id="dumbMusic2">
+     <source src="dumbwaytodie2.mp3" type="audio/mpeg">
+     </audio>
+
+     <audio id="dumbMusic3">
+     <source src="dumbwaytodie3.mp3" type="audio/mpeg">
+     </audio>
+
+	<script type="text/javascript">
+
+		qkRnsmsqjxms.onclick = function(){
+	alert("약간의 쁘띠고어");
+
+}
+
+
+		var toggle = "off";
+
+		babos.onclick = function(){
+           if (toggle == "off") {
+
+				babos.setAttribute("src","Kidneys2.gif");
+				toggle = "on"
+				dumbMusic.play();
+			}else{babos.setAttribute("src","Kidneys1.png");
+			toggle = "off"
+			dumbMusic.pause();
+
+			}
+
+				babos2.onclick = function(){
+           if (toggle == "off") {
+
+				babos2.setAttribute("src","space2.gif");
+				toggle = "on"
+				dumbMusic2.play();
+			}else{babos2.setAttribute("src","space1.png");
+			toggle = "off"
+			dumbMusic2.pause();
+
+			}
+
+					babos3.onclick = function(){
+           if (toggle == "off") {
+
+				babos3.setAttribute("src","dumb4.gif");
+				toggle = "on"
+				dumbMusic3.play();
+			}else{babos3.setAttribute("src","dumb4.png");
+			toggle = "off"
+			dumbMusic3.pause();
+
+			}
+
+
+
+
+
+		}
+
+	}
+}
+
+
+
+
+	</script>
+	
+
+	
+
+</body>
+</html>
